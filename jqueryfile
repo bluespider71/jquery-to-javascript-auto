@@ -1,0 +1,8 @@
+window.benchTable=$(document.createElement('div'));
+document.querySelectorAll("body").appendChild(document.createElement(benchTable));
+benchTable.innerHTML='here is a div';
+benchTable.prepend('Text: ');
+benchTable.appendChild(document.createElement('.<br/>exit;'));
+//benchTable.show();
+benchTable.innerHTML='this does not work';
+//document.querySelectorAll("p").classList.add("selected");

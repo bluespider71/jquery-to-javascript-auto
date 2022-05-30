@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "vaniquery": "^0.2.2"
+  },
+  "name": "jquery2javascript",
+  "version": "1.0.0",
+  "main": "jqueryfile.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": ".\\node_modules\\.bin\\vaniquery vanilla .\\jqueryfile",
+    "revert":  ".\\node_modules\\.bin\\vaniquery revert .\\jqueryfile"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
